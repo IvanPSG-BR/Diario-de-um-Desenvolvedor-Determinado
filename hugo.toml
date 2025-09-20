@@ -1,4 +1,4 @@
-baseURL = "https://IvanPSG-BR.github.io/Diario-de-um-Desenvolvedor-Determinado" # IMPORTANTE: Altere para seu futuro URL
+baseURL = "https://ivanpsg-br.github.io/Diario-de-um-Desenvolvedor-Determinado" # IMPORTANTE: Altere para seu futuro URL
 languageCode = "pt-br"
 title = "Diário de um Desenvolvedor Determinado"
 theme = "PaperMod"
