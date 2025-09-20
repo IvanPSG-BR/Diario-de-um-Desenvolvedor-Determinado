@@ -1,0 +1,23 @@
+baseURL = "https://IvanPSG-BR.github.io/Diario-de-um-Desenvolvedor-Determinado" # IMPORTANTE: Altere para seu futuro URL
+languageCode = "pt-br"
+title = "Diário de um Desenvolvedor Determinado"
+theme = "PaperMod"
+
+[params]
+  # Configurações do tema PaperMod
+  defaultTheme = "dark" # Pode ser "light", "dark" ou "auto"
+  ShowShareButtons = true
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "sobre"
+    name = "Sobre"
+    url = "/sobre/"
+    weight = 20

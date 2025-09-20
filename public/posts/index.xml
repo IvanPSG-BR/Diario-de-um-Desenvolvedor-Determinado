@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Diário de um Desenvolvedor Determinado</title>
+    <link>http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/posts/</link>
+    <description>Recent content in Posts on Diário de um Desenvolvedor Determinado</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>pt-br</language>
+    <lastBuildDate>Sat, 20 Sep 2025 07:21:10 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apresentação</title>
+      <link>http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/posts/apresentacao/</link>
+      <pubDate>Sat, 20 Sep 2025 07:21:10 -0300</pubDate>
+      <guid>http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/posts/apresentacao/</guid>
+      <description>&lt;h1 id=&#34;bom-dia-ou-seria-boa-madrugada&#34;&gt;Bom dia! Ou seria boa madrugada?&lt;/h1&gt;
+&lt;pre&gt;&lt;code&gt;Bem, no momento são quase 4 da manhã, e decidi finalmente dar início ao DDD! Mas não ao que você (talvez) conheça.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;o-que-seria-ddd-contexto-da-computação&#34;&gt;O que seria DDD (Contexto da Computação)?&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;Espero que você tenha pensado primeiro nesse, e não no de número de celular haha. De acordo com a visão geral gerada pelo nosso querido amigo Gemini, ao pesquisar no Google:
+	*&amp;quot;Em computação, DDD refere-se ao Domain-Driven Design, uma abordagem de desenvolvimento de software focada em compreender profundamente o negócio (domínio) e alinhar o design do software com os processos e regras desse domínio, em vez de se moldar à tecnologia. O objetivo é criar softwares que reflitam a realidade do negócio, usando uma &amp;quot;Linguagem Ubíqua&amp;quot; comum entre desenvolvedores e especialistas do domínio para garantir que o projeto seja construído a partir do conhecimento do negócio&amp;quot;*
+Resumindo em minhas palavras: é quando você cria um programa/aplicativo girando em torno de regras de negócio, como propósito, público alvo, etc, e não das tecnologias em si.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;por-que-isso-é-importante&#34;&gt;Por que isso é importante?&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;Não tem muito o que explicar. É um padrão extremamente conhecido por ser essencial para o desenvolvimento de software, e responsável por muitos deles irem pra frente (clique aqui -&amp;gt; https://engsoftmoderna.info/artigos/ddd.html para saber mais sobre)
+Contudo, no contexto desse diário, esse conceito não é tão importante assim. Então por que DDD? O que isso tem a ver?
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;o-que-seria-ddd-contexto-desse-diário&#34;&gt;O que seria DDD (Contexto desse diário)?&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;Essa série de textos que vou registrar serão meus passos na carreira de Desenvolvedor de Software desde o (quase) início. Tentarei redigir aqui cada conquista, cada falha, cada triunfo e cada derrota que eu tiver nessa jornada. Aprendizados, burradas cometidas, TUDO, e como essas coisas se encaixam no meu dia-a-dia.
+Daí veio minha ideia de nomear esse conjunto de registros como DDD, ou **Diário de um Desenvolvedor Determinado**. É um nome bacana, fácil de lembrar, e tem a mesma sigla de algo relevante relacionado com a área, parece perfeito!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;e-afinal-quem-vos-fala&#34;&gt;E afinal, quem vos fala?&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;Meu nome é Ivan Pedro Sampaio Gonçalves, IvanPSG para encurtar, ou só Ivan mesmo. Tenho 17 anos, estou no último ano do Ensino Médio (e Curso Técnico de Informática integrado), e em breve se Deus permitir estarei na UNEB cursando Sistemas da Informação, e quero seguir nessa carreira de Desenvolvedor de Software, inicialmente como [Desenvolvedor Backend](https://ebaconline.com.br/blog/desenvolvedor-back-end-seo), e, mais tarde, talvez algo mais, quem sabe?
+Me dedico muito à programação, pois Programador foi a profissão que mais me identifiquei, e programar é o que mais gosto de fazer (sem brincadeira, consigo ficar horas tranquilamente se eu quiser).
+Comecei a me interessar por tecnologia aos 13 anos querendo criar jogos. Testei várias áreas (música, arte, SFX) e descobri que a única coisa que realmente funcionava comigo era programar: gostei do ritmo lógico, de resolver problemas como se fossem quebra-cabeças (mesmo nunca tendo gostado desse tipo de brinquedo quando menor) e de poder transformar ideias em coisas reais. Desde então, venho estudando e desenvolvendo projetos para aprender na 
+  prática.  
+Porém não sou só isso. Também sou um cara tranquilo, faço amizades com facilidade (e inimizades com muita dificuldade, que bom!), gosto de comida apimentada, não uso muito redes sociais para lazer mesmo com minha idade, curto jogos retrô e indies, ler é um hobby que tenho (mesmo não sendo nada frequente, algo que precisa mudar) e meus gêneros musicais mais escutados são Rock/Pop anos 70-90 e rap geek (que diferença entre gostos musicais!). Sou sério a maior parte do tempo, e no início minha comunicação pode ser meio travada, mas pegando intimidade converso naturalmente e brinco também. Obviamente haviam bem mais coisas, mas resumidamente, esse sou eu!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;concluindo&#34;&gt;Concluindo&amp;hellip;&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;Eu sou Ivan, e este será meu diário de desenvolvimento pessoal em minha carreira como Programador!
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;Texto totalmente escrito por mim, sem auxílio de IA&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
