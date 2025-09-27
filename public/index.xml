@@ -6,7 +6,114 @@
     <description>Recent content in Sobre o DDD on Diário de um Desenvolvedor Determinado</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>pt-br</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Sat, 27 Sep 2025 11:49:59 -0300</lastBuildDate>
     <atom:link href="http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Logica De Programacao</title>
+      <link>http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/microtutoriais/fundamentos/logica-de-programacao/</link>
+      <pubDate>Sat, 27 Sep 2025 11:49:59 -0300</pubDate>
+      <guid>http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/microtutoriais/fundamentos/logica-de-programacao/</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;
+&lt;h1 id=&#34;introdução&#34;&gt;Introdução&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Nesse post irei abordar sobre o clássico e tão falado tópico &lt;em&gt;Lógica de Programação&lt;/em&gt;:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;o que é;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;como eu enxergo;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;o valor agregado pelo aprendizado do conceito;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;e uma pincelada nos tópicos-chave relacionados.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Não é de se surpreender que Lógica de Programação é um assunto tão batido, e com razão, afinal, &lt;strong&gt;quase todo o processo envolvendo a carreira tecnológica&lt;/strong&gt; (e muitas vezes outras também) tem esse &amp;ldquo;método de raciocínio&amp;rdquo; no meio. É o fundamento da base, chegando a ser, em fator comparação, o solo sobre o qual será construído um edifício.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/img/fundamentos/logica-de-programacao-1.png&#34;&gt;logica-de-programacao-1.png&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Quando você pensa em uma construção, imagina as pilastras ou vigas de metal como os &lt;strong&gt;principais recursos de sustentação do prédio&lt;/strong&gt;, porém &lt;em&gt;de nada adiantará&lt;/em&gt; se o terreno por debaixo for irregular e/ou instável; Assim é com a Lógica de Programação, não tem como construir de forma segura os conhecimentos seguintes &lt;em&gt;&lt;strong&gt;sem ter a base sólida&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;img alt=&#34;logica-de-programacao-2.png&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/img/fundamentos/logica-de-programacao-2.png&#34;&gt;&lt;/li&gt;
+&lt;li&gt;E é &lt;em&gt;por isso&lt;/em&gt; que esse será a &lt;strong&gt;primeira publicação&lt;/strong&gt; do Microtutoriais&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1 id=&#34;conceito-senso-comum&#34;&gt;Conceito: Senso Comum&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Eu tenho uma noção do que é, mas indo pesquisar rapidamente pra ser mais fácil colocar em palavras (e também porque quanto mais sabemos, mais temos coisas para descobrir), Lógica de Programação é, resumidamente, &lt;strong&gt;uma forma de raciocínio baseado em normas e técnicas para resolver problemas de uma forma eficaz&lt;/strong&gt;. É uma explicação até que bastante curta, entretanto extremamente certeira.&lt;/li&gt;
+&lt;li&gt;Apesar da minha pesquisa ter sido superficial, posso dizer que todas as fontes (&lt;em&gt;nenhuma delas sendo IA&lt;/em&gt;) concordaram nisso. Uma delas foi um pouco além, dizendo que a Lógica de Programação também envolve tópicos como estrutura de dados, recursão, e etc, o que eu particularmente discordo (falarei mais em Conceito: Meu Ponto de Vista).&lt;/li&gt;
+&lt;li&gt;Devo admitir que fiquei surpreso com a pesquisa, já que eu esperava ver muito mais sites dizendo algo do tipo &amp;ldquo;Lógica de Programação é sobre variáveis, condições, laços de repetição, funções&amp;hellip;&amp;rdquo; dentre outras funcionalidades comumente encontradas em linguagens de programação. Normalmente, especialmente dentre os iniciantes (posso falar, afinal, também sou), cria-se um mito que Lógica de Programação é muito mais sobre esse tipo de coisa, e a parte do raciocínio em si é um pouco deixado de lado&lt;/li&gt;
+&lt;li&gt;&lt;img alt=&#34;É Lógica de Programação?&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/img/fundamentos/logica-de-programacao-4.png&#34;&gt;&lt;/li&gt;
+&lt;li&gt;Outra coisa que as fontes da pesquisa fizeram parecer óbvia, mas que muita gente parece ignorar ou não prestar atenção no começo, é a estratégia &amp;ldquo;Dividir para Conquistar&amp;rdquo; - como gosto de chamar - onde você divide a tarefa em problemas, os problemas em probleminhas, e assim em diante até onde for necessário. Esse método é &lt;em&gt;&lt;strong&gt;imprescindível&lt;/strong&gt;&lt;/em&gt; para:
+&lt;ul&gt;
+&lt;li&gt;Clareza mental&lt;br&gt;
+logseq.order-list-type:: number&lt;/li&gt;
+&lt;li&gt;Facilidade maior para resolução do problema&lt;br&gt;
+logseq.order-list-type:: number&lt;/li&gt;
+&lt;li&gt;Diminuição de tempo gasto e estresse (acredite, eu sei do que estou falando)&lt;br&gt;
+logseq.order-list-type:: number&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img alt=&#34;Dividir Para Conquistar&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/img/fundamentos/logica-de-programacao-5.png&#34;&gt;&lt;/li&gt;
+&lt;li&gt;Infelizmente é um método que parece ser tratado &amp;ldquo;à parte&amp;rdquo;, e não como integrante da Lógica de Programação.&lt;/li&gt;
+&lt;li&gt;Agora, sobre o que penso disso&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1 id=&#34;conceito-meu-ponto-de-vista&#34;&gt;Conceito: Meu Ponto de Vista&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Como foi dito anteriormente, a Lógica de Programação é a base do fundamento, logo, ao meu ver, é um conceito que de fato não deve ser complexo. Essencialmente, Lógica de Programação nada mais é do que raciocínio lógico, só que moldado às linguagens de programação. Com isso devidamente explicado, nem sei se preciso dizer que acho o fato de tópicos de programação em si serem incluídos na &amp;ldquo;parte lógica&amp;rdquo; um pouco absurdo né?&lt;/li&gt;
+&lt;li&gt;Não estou dizendo que não existe relação entre as duas coisas, mas sim que a parte mais importante é lançada para escanteio. Quantos cursos e tutoriais não te jogam as ferramentas (variáveis, funções, condições e blá blá blá), porém não te incentivam a pensar de forma lógica e eficiente?&lt;/li&gt;
+&lt;li&gt;&lt;img alt=&#34;Nível de Importância da Lógica&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/img/fundamentos/logica-de-programacao-6.png&#34;&gt;&lt;/li&gt;
+&lt;li&gt;Mas&amp;hellip; Por que esse assunto é tão relevante? A Lógica &amp;ldquo;de Programação&amp;rdquo; é só para programação mesmo?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1 id=&#34;valor-agregado-benefícios-da-lógica-de-programação&#34;&gt;Valor Agregado: Benefícios da Lógica de Programação&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Batendo novamente o martelo no mesmo ponto para que você internalize, Lógica de Programação é sobre &lt;em&gt;pensar&lt;/em&gt;. Pensar logicamente, separando um problema em etapas, cada uma sendo resolvida com sua devida ferramenta.&lt;/li&gt;
+&lt;li&gt;A partir disso, que tal exercitar a mente um pouco? Junta A + B e já dá pra compreender o quão necessário é ter esse tipo de habilidade. Hoje em dia, período onde não só software, mas tudo em geral ficou mais complexo, conseguir quebrar problemas para encontrar soluções se tornou praticamente obrigação.&lt;/li&gt;
+&lt;li&gt;Levando em conta o significado mais puro do conceito, dá pra considerar algumas profissões e áreas em que a lógica se aplica:
+&lt;ul&gt;
+&lt;li&gt;Médicos - Constantemente lidam com doenças e casos em que é necessário uma linha de pensamento bem consolidada.&lt;/li&gt;
+&lt;li&gt;Músicos - Muitos músicos tem que lidar com grandes escalas, o que fazem para simplificar? Dividem em pequenas partes&lt;/li&gt;
+&lt;li&gt;Logística - Grandes linhas de produção passam por pequenos processos para chegar ao resultado final&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Alguns dos benefícios (retirados diretamente &lt;a href=&#34;https://www.dio.me/articles/logica-de-programacao-o-segredo-para-se-tornar-um-profissional-de-ti-de-sucesso&#34;&gt;daqui&lt;/a&gt;, porque meu repertório mental está acabando) são:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Desenvolvimento de Pensamento Computacional:&lt;/strong&gt; A lógica&lt;br&gt;
+logseq.order-list-type:: number&lt;br&gt;
+de programação ajuda a desenvolver o pensamento computacional, que é a&lt;br&gt;
+capacidade de pensar de forma estruturada e sequencial. Esse tipo de&lt;br&gt;
+pensamento é valioso não apenas na programação, mas também na vida&lt;br&gt;
+cotidiana e em outras disciplinas científicas.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Manutenção e Depuração de Código:&lt;/strong&gt; Um bom entendimento&lt;br&gt;
+logseq.order-list-type:: number&lt;br&gt;
+da lógica de programação facilita a manutenção e a depuração de código.&lt;br&gt;
+Desenvolvedores que compreendem bem a lógica são capazes de identificar e&lt;br&gt;
+corrigir erros de forma mais eficaz, além de refatorar e melhorar&lt;br&gt;
+código existente.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inovação e Criatividade:&lt;/strong&gt; A lógica de programação abre&lt;br&gt;
+logseq.order-list-type:: number&lt;br&gt;
+portas para a inovação. Ao dominar a lógica, programadores podem criar&lt;br&gt;
+soluções criativas e inovadoras para problemas novos ou existentes,&lt;br&gt;
+desenvolvendo novos aplicativos, sistemas e tecnologias.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;img alt=&#34;Benefícios da Lógica de Programação&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/img/fundamentos/logica-de-programacao-7.png&#34;&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;h1 id=&#34;conclusão&#34;&gt;Conclusão&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;Pense. Pense enquanto eles dormem, pense enquanto eles se divertem, pense enquanto eles pensam&amp;hellip; E no final, pra não dizer que eu não falei sobre o que talvez você queria ter visto:&lt;/li&gt;
+&lt;li&gt;&lt;img alt=&#34;python-cheatsheet&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/img/fundamentos/logica-de-programacao-3.jpeg&#34;&gt;&lt;/li&gt;
+&lt;li&gt;Para mais -&amp;gt; &lt;a href=&#34;https://javascript.info/first-steps&#34;&gt;Clique aqui&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;(não escolhi JS com base em nada, eu nem gosto da linguagem)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+	&lt;hr&gt;
+	&lt;p&gt;
+		&lt;b&gt;&lt;i&gt;Texto totalmente escrito por mim, sem auxílio de IA&lt;/i&gt;&lt;/b&gt;
+	&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>
