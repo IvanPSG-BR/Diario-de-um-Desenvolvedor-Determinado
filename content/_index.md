@@ -1,7 +1,7 @@
 +++
 date = '2025-09-20T07:21:10-03:00'
 draft = false
-title = 'Apresentação'
+title = 'Sobre o DDD'
 +++
 
 - # Bom dia! Ou seria boa madrugada?
@@ -24,4 +24,5 @@ title = 'Apresentação'
 	- Porém não sou só isso. Também sou um cara tranquilo, faço amizades com facilidade (e inimizades com muita dificuldade, que bom!), gosto de comida apimentada, não uso muito redes sociais para lazer mesmo com minha idade, curto jogos retrô e indies, ler é um hobby que tenho (mesmo não sendo nada frequente, algo que precisa mudar) e meus gêneros musicais mais escutados são Rock/Pop anos 70-90 e rap geek (que diferença entre gostos musicais!). Sou sério a maior parte do tempo, e no início minha comunicação pode ser meio travada, mas pegando intimidade converso naturalmente e brinco também. Obviamente haviam bem mais coisas, mas resumidamente, esse sou eu!
 - ## Concluindo...
 	- Eu sou Ivan, e este será meu diário de desenvolvimento pessoal em minha carreira como Programador!
-- *__Texto totalmente escrito por mim, sem auxílio de IA__*
+
+{{< ai-safety-text >}}

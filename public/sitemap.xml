@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/posts/apresentacao/</loc>
-    <lastmod>2025-09-20T07:21:10-03:00</lastmod>
+    <loc>http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/microtutoriais/fundamentos/</loc>
+    <lastmod>2025-09-26T16:37:41-03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/microtutoriais/</loc>
+    <lastmod>2025-09-26T16:37:41-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/</loc>
-    <lastmod>2025-09-20T07:21:10-03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/posts/</loc>
     <lastmod>2025-09-20T07:21:10-03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/Diario-de-um-Desenvolvedor-Determinado/categories/</loc>

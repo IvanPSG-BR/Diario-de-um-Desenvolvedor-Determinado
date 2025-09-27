@@ -3,21 +3,33 @@ languageCode = "pt-br"
 title = "Diário de um Desenvolvedor Determinado"
 theme = "PaperMod"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+		hardWraps = true
+		unsafe = true
 [params]
   # Configurações do tema PaperMod
   defaultTheme = "dark" # Pode ser "light", "dark" ou "auto"
-  ShowShareButtons = true
+  ShowShareButtons = false
   ShowReadingTime = true
-  ShowPostNavLinks = true
+  ShowPostNavLinks = false
+  disableSpecial1stPost = true
+  ShowBreadCrumbs = false
 
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-    weight = 10
-  [[menu.main]]
+[menus]
+  [[menus.main]]
     identifier = "sobre"
     name = "Sobre"
-    url = "/sobre/"
+	pageRef = "/"
+    weight = 1000
+  [[menus.main]]
+    identifier = "dias"
+    name = "Dias"
+    pageRef = "/dias/"
+    weight = 10
+  [[menus.main]]
+    identifier = "microtutoriais"
+    name = "Microtutoriais"
+    pageRef = "/microtutoriais/"
     weight = 20
